@@ -6,23 +6,22 @@ A Visual Studio Extension that allows the user to insert a typescript reference 
 
 What problem does it solve?
 
-Imagine the scenario where you have created a typescript file called Car.ts which has a property on it of type CarEngine. 
-You now need to import the type CarEngine for this to be valid typescript.
+Imagine the scenario where you have created a typescript file called `Car.ts` which has a property on it of type `CarEngine`. 
+You now need to import the type `CarEngine` for this to be valid typescript.
 Importing types is not always straight forward as the types can sometimes live in nested directories, and for a large solution, 
-this is a pain. The import syntax is:    import CarEngine = require('../../Engines/CarEngine');
+this is a pain. The import syntax is: `import CarEngine = require('../../Engines/CarEngine');`
 
 
-Car.ts
----------------------------------------------------------
+####`Car.ts`
+```typescript
 
-Class Car
+class Car
 {
   public Engine : CarEngine;
 }
 
 export = Car;
-
-----------------------------------------------------------
+```
 
 
 With this extension installed you simply need to highlight 'CarEngine' in your Car.ts file, 
@@ -33,4 +32,4 @@ If the import already exists then no type is added. The extension looks for the 
 reference above that import; if no imports are present, it inserts it at the top of the file.
 
 Note : For this extension to work, it assumes that your types are named the same as your files, as in the example above, class
-Car resides in file Car.ts
+`Car` resides in file `Car.ts`
