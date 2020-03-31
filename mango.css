@@ -386,6 +386,7 @@ img {
 .ekashu_input input {
   height: 116px;
   width: 700px;
+  border: 1px solid black;
 }
 
 #ekashu_input_card_first_name input {
@@ -473,6 +474,7 @@ img {
   color: #000;
   font-weight: bold;
   font-size: 35pt;
+  margin-bottom: 15px;
 }
 
 .ekashu_mandatory {
@@ -558,7 +560,6 @@ img {
 }
 
 .ekashu_section {
-  background-color: #dcdcdc;
   padding: 20px 20px 18px 20px;
   position: relative;
   margin-bottom: 20px;
@@ -600,6 +601,8 @@ img {
   width: 231px;
   height: 82px;
   font-size: 30pt;
+  margin-right: 15px;
+  border: 1px solid black;
 }
 
 #ekashu_seller_address {
