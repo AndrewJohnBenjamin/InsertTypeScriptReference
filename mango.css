@@ -155,7 +155,7 @@ img {
 .ekashu_field {
   border: 2px solid #dcdcdc;
   padding: 5px 5px 5px 5px;
-  margin-bottom: 2px;
+  margin-bottom: 70px;
 }
 
 #ekashu_field_card_address_1 {
@@ -375,13 +375,12 @@ img {
   display: flex;
   position: relative;
   margin-bottom: 20px;
-  background: url(images/logo.gif) no-repeat;
-  background-position: 20px 0px;
-  background-color: #f49831;
+  background: linear-gradient(270deg, #f49831, #ef7d43);
 }
 
 .ekashu_header_text {
   margin-left: 21px;
+  padding: 100px 0px;
 }
 
 .ekashu_input input {
@@ -639,6 +638,6 @@ img {
 
 #ekashu_title {
   color: white;
-  font-size: 50pt;
+  font-size: 64pt;
   margin-bottom: 2px;
 }
