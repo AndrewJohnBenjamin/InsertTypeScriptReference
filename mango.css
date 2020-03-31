@@ -41,7 +41,7 @@ img {
 }
 
 #ekashu_amount {
-  color: #ed008c;
+  color: #53ad55;
   font-size: 40pt;
   /* font-weight: bold; */
   margin-bottom: 2px;
@@ -54,7 +54,7 @@ img {
 }
 
 .ekashu_card_logo_verification_text a {
-  color: #ed008c;
+  color: #53ad55;
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ img {
 }
 
 .ekashu_description {
-  color: #ed008c;
+  color: #53ad55;
   font-size: 12pt;
   font-weight: bold;
   margin-bottom: 2px;
@@ -112,7 +112,7 @@ img {
 }
 
 .ekashu_errors {
-  background-color: #ed008c;
+  background-color: #53ad55;
   color: #fff;
   font-weight: bold;
   left: 100px;
@@ -267,7 +267,7 @@ img {
 }
 
 .ekashu_field_error {
-  border: 2px solid #ed008c;
+  border: 2px solid #53ad55;
   height: 39px;
   padding: 5px 5px 5px 5px;
   margin-bottom: 2px;
@@ -367,12 +367,12 @@ img {
 }
 
 .ekashu_footer {
-  border-top: 3px solid #ed008c;
+  border-top: 3px solid #53ad55;
   text-align: center;
 }
 
 .ekashu_header {
-  border-bottom: 3px solid #ed008c;
+  border-bottom: 3px solid #53ad55;
   font-size: 24pt;
   display: flex;
   position: relative;
@@ -380,6 +380,7 @@ img {
   background: url(images/logo.gif) no-repeat;
   background-position: 20px 0px;
   padding: 0px 0px 0px 206px;
+  background-color: #f49831;
 }
 
 .ekashu_header_text {
@@ -456,7 +457,7 @@ img {
 }
 
 .ekashu_issue_number_text a {
-  color: #ed008c;
+  color: #53ad55;
   text-decoration: none;
 }
 
@@ -478,7 +479,7 @@ img {
 }
 
 .ekashu_mandatory {
-  color: #ed008c;
+  color: #53ad55;
   font-family: monospace;
   font-weight: bold;
   margin: 5px 5px 5px 0px;
@@ -584,7 +585,7 @@ img {
 }
 
 .ekashu_section_title {
-  color: #ed008c;
+  color: #53ad55;
   font-size: 11pt;
   font-weight: bold;
   width: 231px;
@@ -613,7 +614,7 @@ img {
 }
 
 #ekashu_seller_name {
-  color: #ed008c;
+  color: #53ad55;
   font-size: 12pt;
   font-weight: bold;
   margin-bottom: 2px;
