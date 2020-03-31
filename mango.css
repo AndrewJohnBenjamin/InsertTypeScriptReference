@@ -413,7 +413,7 @@ img {
 }
 
 #ekashu_input_expires_end_month {
-  width: 50px;
+  width: 150px;
 }
 
 #ekashu_input_expires_end_year {
@@ -598,6 +598,8 @@ img {
 
 .ekashu_select select {
   width: 231px;
+  height: 82px;
+  font-size: 30pt;
 }
 
 #ekashu_seller_address {
