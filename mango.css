@@ -153,7 +153,6 @@ img {
 }
 
 .ekashu_field {
-  border: 2px solid #dcdcdc;
   padding: 5px 5px 5px 5px;
   margin-bottom: 70px;
 }
@@ -598,8 +597,8 @@ img {
 }
 
 .ekashu_select select {
-  width: 231px;
-  height: 82px;
+  width: 300px !important;
+  height: 120px;
   font-size: 30pt;
   margin-right: 15px;
   border: 1px solid black;
