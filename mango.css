@@ -376,7 +376,8 @@ img {
   display: flex;
   position: relative;
   margin-bottom: 20px;
-  background: linear-gradient(270deg, #f49831, #ef7d43);
+  /* background: linear-gradient(270deg, #f49831, #ef7d43); */
+  background: url(images/logo.gif) no-repeat;
 }
 
 .ekashu_header_text {
