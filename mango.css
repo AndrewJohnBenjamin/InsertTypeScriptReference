@@ -10,7 +10,9 @@ img {
 }
 
 #ekashu_3d_logos {
-  float: right;
+  position: absolute;
+  right: 12px;
+  top: 12px;
 }
 
 #ekashu_3d_logo_amex {
@@ -40,8 +42,8 @@ img {
 
 #ekashu_amount {
   color: #ed008c;
-  font-size: 12pt;
-  font-weight: bold;
+  font-size: 40pt;
+  /* font-weight: bold; */
   margin-bottom: 2px;
 }
 
@@ -85,7 +87,6 @@ img {
 
 .ekashu_content {
   margin: 0 auto;
-  width: 750px;
 }
 
 .ekashu_content_card_verification_value {
@@ -373,7 +374,7 @@ img {
 .ekashu_header {
   border-bottom: 3px solid #ed008c;
   font-size: 24pt;
-  height: 100px;
+  display: flex;
   position: relative;
   margin-bottom: 20px;
   background: url(images/logo.gif) no-repeat;
@@ -382,7 +383,7 @@ img {
 }
 
 .ekashu_header_text {
-  float: left;
+  margin-left: 21px;
 }
 
 .ekashu_input input {
@@ -640,7 +641,7 @@ img {
 }
 
 #ekashu_title {
-  color: #000;
+  color: white;
   font-size: 16pt;
   font-weight: bold;
   margin-bottom: 2px;
