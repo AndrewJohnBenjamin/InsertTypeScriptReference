@@ -417,7 +417,7 @@ img {
 }
 
 #ekashu_input_expires_end_year {
-  width: 60px;
+  width: 160px;
 }
 
 #ekashu_input_invoice_first_name input {
@@ -445,11 +445,11 @@ img {
 }
 
 #ekashu_input_valid_from_month {
-  width: 50px;
+  width: 150px;
 }
 
 #ekashu_input_valid_from_year {
-  width: 60px;
+  width: 160px;
 }
 
 .ekashu_issue_number_text a {
