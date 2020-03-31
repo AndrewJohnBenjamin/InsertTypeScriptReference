@@ -13,6 +13,7 @@ img {
   position: absolute;
   right: 12px;
   top: 12px;
+  display: none;
 }
 
 #ekashu_3d_logo_amex {
@@ -380,10 +381,14 @@ img {
 }
 
 .ekashu_header::after {
-  content: url("https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/TrentBartonSVG.svg/1280px-TrentBartonSVG.svg.png");
-  right: 10px;
-  bottom: 5px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/TrentBartonSVG.svg/1280px-TrentBartonSVG.svg.png);
+  right: 40px;
+  top: 66px;
   position: absolute;
+  background-size: 330px 150px;
+  width: 330px;
+  height: 150px;
+  content: "";
 }
 
 .ekashu_header_text {
