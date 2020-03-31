@@ -41,10 +41,11 @@ img {
 }
 
 #ekashu_amount {
-  font-size: 40pt;
+  font-size: 48pt;
   /* font-weight: bold; */
   margin-bottom: 2px;
   margin-top: 45px;
+  color: white;
 }
 
 #ekashu_card_logo_verification_back {
@@ -678,7 +679,7 @@ select {
 }
 
 #ekashu_title {
-  color: white;
-  font-size: 64pt;
+  color: black;
+  font-size: 38pt;
   margin-bottom: 2px;
 }
