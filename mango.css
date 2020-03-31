@@ -1,3 +1,647 @@
-div {
-  color: darkorange;
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
+  margin: 10px;
+  text-align: left;
+}
+
+img {
+  border: 0px;
+}
+
+#ekashu_3d_logos {
+  float: right;
+}
+
+#ekashu_3d_logo_amex {
+  float: left;
+  top: 0px;
+}
+
+#ekashu_3d_logo_discover {
+  float: left;
+  top: 0px;
+}
+
+#ekashu_3d_logo_jcb {
+  float: left;
+  top: 0px;
+}
+
+#ekashu_3d_logo_mastercard {
+  float: left;
+  top: 0px;
+}
+
+#ekashu_3d_logo_visa {
+  float: left;
+  top: 0px;
+}
+
+#ekashu_amount {
+  color: #ed008c;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#ekashu_card_logo_verification_back {
+}
+
+#ekashu_card_logo_verification_front {
+}
+
+.ekashu_card_logo_verification_text a {
+  color: #ed008c;
+  text-decoration: none;
+}
+
+#ekashu_card_logos_accepted {
+  float: right;
+  font-size: 0px;
+  padding: 0px 7px 2px 5px;
+  width: 231px;
+}
+
+#ekashu_card_logos_accepted img {
+  margin: 1px;
+}
+
+#ekashu_card_logos_verification {
+  border: 2px solid #dcdcdc;
+  float: right;
+  padding: 5px 0px 2px 5px;
+  width: 236px;
+}
+
+#ekashu_card_logos_verification_images {
+  float: left;
+  padding: 0px 5px 0px 0px;
+}
+
+.ekashu_clear_float {
+  clear: both;
+}
+
+.ekashu_content {
+  margin: 0 auto;
+  width: 750px;
+}
+
+.ekashu_content_card_verification_value {
+  padding: 10px;
+  width: 210px;
+}
+
+.ekashu_content_issue_number {
+  padding: 10px;
+  width: 210px;
+}
+
+.ekashu_description {
+  color: #ed008c;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.ekashu_error {
+  font-weight: bold;
+  margin: 2px 0px 2px 0px;
+}
+
+.ekashu_errors {
+  background-color: #ed008c;
+  color: #fff;
+  font-weight: bold;
+  left: 100px;
+  margin-bottom: 20px;
+  padding: 20px 20px 18px 20px;
+  position: relative;
+  width: 510px;
+}
+
+.ekashu_errors_top {
+  background: url(images/etl.gif) no-repeat;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 20px;
+}
+
+.ekashu_errors_bottom {
+  background: url(images/ebr.gif) no-repeat;
+  bottom: 0px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  width: 20px;
+}
+
+.ekashu_failure_return_url {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ekashu_failure_return_url a {
+  color: #80d5fe;
+  font-size: 12pt;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.ekashu_field {
+  border: 2px solid #dcdcdc;
+  height: 39px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 2px;
+  width: 231px;
+}
+
+#ekashu_field_card_address_1 {
+  float: left;
+}
+
+#ekashu_field_card_address_2 {
+  float: right;
+}
+
+#ekashu_field_card_city {
+  float: left;
+}
+
+#ekashu_field_card_country {
+  float: right;
+}
+
+#ekashu_field_card_email_address {
+  float: left;
+}
+
+#ekashu_field_card_first_name {
+  float: left;
+  width: 140px;
+}
+
+#ekashu_field_card_last_name {
+  float: right;
+}
+
+#ekashu_field_card_number {
+  float: left;
+}
+
+#ekashu_field_card_phone_number {
+  float: left;
+}
+
+#ekashu_field_card_phone_number_type {
+  float: right;
+}
+
+#ekashu_field_card_state {
+  float: right;
+}
+
+#ekashu_field_card_title {
+  float: left;
+  margin-right: 2px;
+  width: 75px;
+}
+
+#ekashu_field_card_zip_code {
+  float: left;
+}
+
+#ekashu_field_delivery_address_1 {
+  float: left;
+}
+
+#ekashu_field_delivery_address_2 {
+  float: right;
+}
+
+#ekashu_field_delivery_city {
+  float: left;
+}
+
+#ekashu_field_delivery_country {
+  float: right;
+}
+
+#ekashu_field_delivery_email_address {
+  float: left;
+}
+
+#ekashu_field_delivery_first_name {
+  float: left;
+  width: 140px;
+}
+
+#ekashu_field_delivery_last_name {
+  float: right;
+}
+
+#ekashu_field_delivery_phone_number {
+  float: left;
+}
+
+#ekashu_field_delivery_phone_number_type {
+  float: right;
+}
+
+#ekashu_field_delivery_state {
+  float: right;
+}
+
+#ekashu_field_delivery_title {
+  float: left;
+  margin-right: 2px;
+  width: 75px;
+}
+
+#ekashu_field_delivery_zip_code {
+  float: left;
+}
+
+.ekashu_field_error {
+  border: 2px solid #ed008c;
+  height: 39px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 2px;
+  width: 231px;
+}
+
+#ekashu_field_expires_end {
+  float: right;
+}
+
+#ekashu_field_invoice_address_1 {
+  float: left;
+}
+
+#ekashu_field_invoice_address_2 {
+  float: right;
+}
+
+#ekashu_field_invoice_city {
+  float: left;
+}
+
+#ekashu_field_invoice_country {
+  float: right;
+}
+
+#ekashu_field_invoice_email_address {
+  float: left;
+}
+
+#ekashu_field_invoice_first_name {
+  float: left;
+  width: 140px;
+}
+
+#ekashu_field_invoice_last_name {
+  float: right;
+}
+
+#ekashu_field_invoice_phone_number {
+  float: left;
+}
+
+#ekashu_field_invoice_phone_number_type {
+  float: right;
+}
+
+#ekashu_field_invoice_state {
+  float: right;
+}
+
+#ekashu_field_invoice_title {
+  float: left;
+  margin-right: 2px;
+  width: 75px;
+}
+
+#ekashu_field_invoice_zip_code {
+  float: left;
+}
+
+#ekashu_field_issue_number {
+  clear: both;
+  float: left;
+}
+
+#ekashu_field_issue_number input {
+  width: 75px;
+}
+
+#ekashu_field_recipient_account_number {
+  float: left;
+}
+
+#ekashu_field_recipient_date_of_birth {
+  float: right;
+}
+
+#ekashu_field_recipient_last_name {
+  float: left;
+}
+
+#ekashu_field_recipient_zip_code {
+  float: right;
+}
+
+#ekashu_field_valid_from {
+  float: right;
+}
+
+#ekashu_field_verification_value {
+  float: left;
+}
+
+#ekashu_field_verification_value input {
+  width: 75px;
+}
+
+.ekashu_footer {
+  border-top: 3px solid #ed008c;
+  text-align: center;
+}
+
+.ekashu_header {
+  border-bottom: 3px solid #ed008c;
+  font-size: 24pt;
+  height: 100px;
+  position: relative;
+  margin-bottom: 20px;
+  background: url(images/logo.gif) no-repeat;
+  background-position: 20px 0px;
+  padding: 0px 0px 0px 206px;
+}
+
+.ekashu_header_text {
+  float: left;
+}
+
+.ekashu_input input {
+  height: 116px;
+  width: 700px;
+}
+
+#ekashu_input_card_first_name input {
+  width: 136px;
+}
+
+#ekashu_input_card_phone_number_type {
+  width: 75px;
+}
+
+#ekashu_input_card_title {
+  width: 75px;
+}
+
+#ekashu_input_delivery_first_name input {
+  width: 136px;
+}
+
+#ekashu_input_delivery_phone_number_type {
+  width: 75px;
+}
+
+#ekashu_input_delivery_title {
+  width: 75px;
+}
+
+#ekashu_input_expires_end_month {
+  width: 50px;
+}
+
+#ekashu_input_expires_end_year {
+  width: 60px;
+}
+
+#ekashu_input_invoice_first_name input {
+  width: 136px;
+}
+
+#ekashu_input_invoice_phone_number_type {
+  width: 75px;
+}
+
+#ekashu_input_invoice_title {
+  width: 75px;
+}
+
+#ekashu_input_recipient_date_of_birth_day {
+  width: 50px;
+}
+
+#ekashu_input_recipient_date_of_birth_month {
+  width: 50px;
+}
+
+#ekashu_input_recipient_date_of_birth_year {
+  width: 60px;
+}
+
+#ekashu_input_valid_from_month {
+  width: 50px;
+}
+
+#ekashu_input_valid_from_year {
+  width: 60px;
+}
+
+.ekashu_issue_number_text a {
+  color: #ed008c;
+  text-decoration: none;
+}
+
+#ekashu_label_delivery_address_is_card_address {
+  float: left;
+}
+
+#ekashu_label_invoice_address_is_card_address {
+  float: left;
+}
+
+#ekashu_label_recipient_account_number_is_card_number {
+  float: left;
+}
+
+.ekashu_label {
+  color: #000;
+  font-weight: bold;
+}
+
+.ekashu_mandatory {
+  color: #ed008c;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 5px 5px 5px 0px;
+}
+
+.ekashu_monospace {
+  font-family: "courier new", courier, monospace;
+}
+
+.ekashu_notification_text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ekashu_notification_title {
+  font-size: 24pt;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#ekashu_option_delivery_address_is_card_address_option_no {
+  position: relative;
+  left: 10px;
+}
+
+#ekashu_option_delivery_address_is_card_address_option_yes {
+  position: relative;
+}
+
+#ekashu_option_delivery_address_is_card_address_options {
+  float: right;
+  width: 238px;
+}
+
+#ekashu_option_invoice_address_is_card_address_option_no {
+  position: relative;
+  left: 10px;
+}
+
+#ekashu_option_invoice_address_is_card_address_option_yes {
+  position: relative;
+}
+
+#ekashu_option_invoice_address_is_card_address_options {
+  float: right;
+  width: 238px;
+}
+
+#ekashu_option_recipient_account_number_is_card_number_option_no {
+  position: relative;
+  left: 10px;
+}
+
+#ekashu_option_recipient_account_number_is_card_number_option_yes {
+  position: relative;
+}
+
+#ekashu_option_recipient_account_number_is_card_number_options {
+  float: right;
+  width: 238px;
+}
+
+#ekashu_paypal_logos_accepted {
+  float: right;
+  padding: 0px 7px 2px 5px;
+  width: 231px;
+}
+
+.ekashu_return_url {
+  float: right;
+  margin-top: 55px;
+}
+
+.ekashu_return_url a {
+  color: #80d5fe;
+  font-size: 12pt;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.ekashu_section {
+  background-color: #dcdcdc;
+  padding: 20px 20px 18px 20px;
+  position: relative;
+  width: 510px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ekashu_section_bottom {
+  bottom: 0px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  width: 20px;
+  background: url(images/br.gif) no-repeat;
+}
+
+.ekashu_section_text {
+  margin: 20px 0px 20px 0px;
+}
+
+.ekashu_section_title {
+  color: #ed008c;
+  font-size: 11pt;
+  font-weight: bold;
+  width: 231px;
+  margin-bottom: 10px;
+}
+
+.ekashu_section_top {
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 20px;
+  background: url(images/tl.gif) no-repeat;
+}
+
+.ekashu_select select {
+  width: 231px;
+}
+
+#ekashu_seller_address {
+  color: #000000;
+  font-size: 10pt;
+  font-style: italic;
+  margin-top: 2px;
+  text-align: center;
+}
+
+#ekashu_seller_name {
+  color: #ed008c;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.ekashu_submit input {
+  text-align: center;
+}
+
+#ekashu_submit_continue {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#ekashu_submit_cardeasexml {
+  height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#ekashu_submit_paypal {
+  height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#ekashu_title {
+  color: #000;
+  font-size: 16pt;
+  font-weight: bold;
+  margin-bottom: 2px;
 }
