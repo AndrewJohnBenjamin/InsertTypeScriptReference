@@ -380,8 +380,10 @@ img {
 }
 
 .ekashu_header::after {
-  background: url("https://www.trentbarton.co.uk/resources/res.aspx/24F1B7CDC7A0A6045FE201F71E2C5F85C8028255BA7019BBB7795D09D1818A48/student-travel.jpg")
-    no-repeat;
+  content: url("https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/TrentBartonSVG.svg/1280px-TrentBartonSVG.svg.png");
+  right: 10px;
+  bottom: 5px;
+  position: absolute;
 }
 
 .ekashu_header_text {
