@@ -47,6 +47,9 @@ img {
   margin-bottom: 2px;
   margin-top: 45px;
   color: white;
+  position: absolute;
+  right: 15px;
+  top: 87px;
 }
 
 #ekashu_card_logo_verification_back {
@@ -378,11 +381,12 @@ img {
   position: relative;
   margin-bottom: 20px;
   background: linear-gradient(270deg, #f49831, #ef7d43);
+  height: 260px;
 }
 
 .ekashu_header::after {
   background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/TrentBartonSVG.svg/1280px-TrentBartonSVG.svg.png);
-  right: 40px;
+  left: 40px;
   top: 66px;
   position: absolute;
   background-size: 330px 150px;
@@ -694,4 +698,7 @@ select {
   color: black;
   font-size: 38pt;
   margin-bottom: 2px;
+  position: absolute;
+  right: 15px;
+  top: 72px;
 }
