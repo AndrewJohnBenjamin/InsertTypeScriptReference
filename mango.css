@@ -364,7 +364,6 @@ img {
 }
 
 .ekashu_footer {
-  border-top: 3px solid #53ad55;
   text-align: center;
 }
 
@@ -379,7 +378,7 @@ img {
 
 .ekashu_header_text {
   margin-left: 21px;
-  padding: 100px 0px;
+  padding: 45px 0px;
 }
 
 .ekashu_input input {
@@ -600,7 +599,7 @@ img {
   width: 300px !important;
   height: 120px;
   font-size: 30pt;
-  margin-right: 15px;
+  margin-right: 30px;
   border: 1px solid black !important;
 
   /* styling */
@@ -614,7 +613,6 @@ img {
 
   /* reset */
 
-  margin: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -645,6 +643,13 @@ img {
 
 .ekashu_submit input {
   text-align: center;
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  border: 1px solid black;
+  background: #53ad55;
+  color: white;
+  font-size: 30pt;
 }
 
 #ekashu_submit_continue {
