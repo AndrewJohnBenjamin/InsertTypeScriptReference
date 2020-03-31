@@ -154,10 +154,8 @@ img {
 
 .ekashu_field {
   border: 2px solid #dcdcdc;
-  height: 39px;
   padding: 5px 5px 5px 5px;
   margin-bottom: 2px;
-  width: 231px;
 }
 
 #ekashu_field_card_address_1 {
@@ -363,7 +361,7 @@ img {
 }
 
 #ekashu_field_verification_value input {
-  width: 75px;
+  width: 262px;
 }
 
 .ekashu_footer {
@@ -379,7 +377,6 @@ img {
   margin-bottom: 20px;
   background: url(images/logo.gif) no-repeat;
   background-position: 20px 0px;
-  padding: 0px 0px 0px 206px;
   background-color: #f49831;
 }
 
@@ -476,6 +473,7 @@ img {
 .ekashu_label {
   color: #000;
   font-weight: bold;
+  font-size: 35pt;
 }
 
 .ekashu_mandatory {
@@ -564,8 +562,6 @@ img {
   background-color: #dcdcdc;
   padding: 20px 20px 18px 20px;
   position: relative;
-  width: 510px;
-  margin-left: 100px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -643,7 +639,6 @@ img {
 
 #ekashu_title {
   color: white;
-  font-size: 16pt;
-  font-weight: bold;
+  font-size: 50pt;
   margin-bottom: 2px;
 }
